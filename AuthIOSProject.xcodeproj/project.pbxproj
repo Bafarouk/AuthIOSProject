@@ -12,6 +12,11 @@
 		09538A4F2C68511100947528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09538A4E2C68511100947528 /* Assets.xcassets */; };
 		09538A522C68511100947528 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09538A512C68511100947528 /* Preview Assets.xcassets */; };
 		09538A612C6852BD00947528 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 09538A602C6852BD00947528 /* Localizable.xcstrings */; };
+		09538A752C68585800947528 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09538A742C68585800947528 /* LoginScreen.swift */; };
+		09538A772C685E2400947528 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09538A762C685E2400947528 /* LoginViewModel.swift */; };
+		09538A792C685F4A00947528 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09538A782C685F4A00947528 /* LoginRequest.swift */; };
+		09538A7B2C685FFC00947528 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09538A7A2C685FFC00947528 /* LoginResponse.swift */; };
+		09538A7D2C6860FE00947528 /* LoginAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09538A7C2C6860FE00947528 /* LoginAction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		09538A4E2C68511100947528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09538A512C68511100947528 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09538A602C6852BD00947528 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		09538A742C68585800947528 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		09538A762C685E2400947528 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		09538A782C685F4A00947528 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		09538A7A2C685FFC00947528 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		09538A7C2C6860FE00947528 /* LoginAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +153,11 @@
 		09538A642C68534000947528 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				09538A6F2C68577400947528 /* Actions */,
+				09538A6E2C68576B00947528 /* Models */,
+				09538A6D2C68576000947528 /* Screens */,
+				09538A6C2C68575300947528 /* ViewModels */,
+				09538A6B2C68574000947528 /* Views */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -180,6 +195,46 @@
 			children = (
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		09538A6B2C68574000947528 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09538A6C2C68575300947528 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				09538A762C685E2400947528 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		09538A6D2C68576000947528 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				09538A742C68585800947528 /* LoginScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		09538A6E2C68576B00947528 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09538A782C685F4A00947528 /* LoginRequest.swift */,
+				09538A7A2C685FFC00947528 /* LoginResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		09538A6F2C68577400947528 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				09538A7C2C6860FE00947528 /* LoginAction.swift */,
+			);
+			path = Actions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,8 +333,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09538A772C685E2400947528 /* LoginViewModel.swift in Sources */,
 				09538A4D2C68511000947528 /* ContentView.swift in Sources */,
+				09538A7B2C685FFC00947528 /* LoginResponse.swift in Sources */,
 				09538A4B2C68511000947528 /* AuthIOSProjectApp.swift in Sources */,
+				09538A792C685F4A00947528 /* LoginRequest.swift in Sources */,
+				09538A752C68585800947528 /* LoginScreen.swift in Sources */,
+				09538A7D2C6860FE00947528 /* LoginAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
