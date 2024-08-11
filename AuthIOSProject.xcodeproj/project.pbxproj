@@ -11,6 +11,7 @@
 		09538A4D2C68511000947528 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09538A4C2C68511000947528 /* ContentView.swift */; };
 		09538A4F2C68511100947528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09538A4E2C68511100947528 /* Assets.xcassets */; };
 		09538A522C68511100947528 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09538A512C68511100947528 /* Preview Assets.xcassets */; };
+		09538A612C6852BD00947528 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 09538A602C6852BD00947528 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		09538A4C2C68511000947528 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09538A4E2C68511100947528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09538A512C68511100947528 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09538A602C6852BD00947528 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,10 @@
 			isa = PBXGroup;
 			children = (
 				09538A492C68511000947528 /* AuthIOSProject */,
+				09538A662C68538C00947528 /* Products */,
+				09538A672C68539800947528 /* Tests */,
+				09538A682C68539F00947528 /* Frameworks */,
+				09538A6A2C6854B300947528 /* Pods */,
 				09538A482C68511000947528 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,9 +57,10 @@
 		09538A492C68511000947528 /* AuthIOSProject */ = {
 			isa = PBXGroup;
 			children = (
-				09538A4A2C68511000947528 /* AuthIOSProjectApp.swift */,
-				09538A4C2C68511000947528 /* ContentView.swift */,
-				09538A4E2C68511100947528 /* Assets.xcassets */,
+				09538A592C6851DB00947528 /* Code */,
+				09538A5C2C6851FF00947528 /* Config */,
+				09538A5E2C68520E00947528 /* Resources */,
+				09538A5F2C68526600947528 /* SupportingFiles */,
 				09538A502C68511100947528 /* Preview Content */,
 			);
 			path = AuthIOSProject;
@@ -67,6 +74,114 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		09538A592C6851DB00947528 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				09538A5B2C6851EE00947528 /* Features */,
+				09538A5A2C6851E500947528 /* Utilities */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		09538A5A2C6851E500947528 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		09538A5B2C6851EE00947528 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				09538A652C68534700947528 /* Common */,
+				09538A642C68534000947528 /* Login */,
+				09538A632C68532F00947528 /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		09538A5C2C6851FF00947528 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		09538A5E2C68520E00947528 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				09538A622C68530800947528 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		09538A5F2C68526600947528 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				09538A4A2C68511000947528 /* AuthIOSProjectApp.swift */,
+				09538A4C2C68511000947528 /* ContentView.swift */,
+				09538A602C6852BD00947528 /* Localizable.xcstrings */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		09538A622C68530800947528 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				09538A4E2C68511100947528 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		09538A632C68532F00947528 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		09538A642C68534000947528 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		09538A652C68534700947528 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		09538A662C68538C00947528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		09538A672C68539800947528 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		09538A682C68539F00947528 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		09538A6A2C6854B300947528 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +192,7 @@
 				09538A432C68511000947528 /* Sources */,
 				09538A442C68511000947528 /* Frameworks */,
 				09538A452C68511000947528 /* Resources */,
+				09538A692C6853D200947528 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -109,6 +225,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 09538A3E2C68511000947528;
 			productRefGroup = 09538A482C68511000947528 /* Products */;
@@ -127,10 +244,34 @@
 			files = (
 				09538A522C68511100947528 /* Preview Assets.xcassets in Resources */,
 				09538A4F2C68511100947528 /* Assets.xcassets in Resources */,
+				09538A612C6852BD00947528 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09538A692C6853D200947528 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Type a script or drag a script file from your workspace to insert its path.\nif [[ \"$(uname -m)\" == arm64 ]]\nthen\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif command -v swiftlint >/dev/null 2>&1\nthen\n    swiftlint --fix && swiftlint\nelse\n    echo \"warning: `swiftlint` command not found - See https://github.com/realm/SwiftLint#installation for installation instructions.\"\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		09538A432C68511000947528 /* Sources */ = {
@@ -273,6 +414,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AuthIOSProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -301,6 +443,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AuthIOSProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
